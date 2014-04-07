@@ -669,8 +669,6 @@ footer {
   font-family: 'Roboto';
   font-weight: 500;
   opacity: 1;
-}
-.button a {
   text-decoration: none;
   color: #0f0e0e;
 }
@@ -686,7 +684,4 @@ footer {
   color: black;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
-}
-.buy {
-  color: red;
 }
