@@ -2,7 +2,7 @@
    LAYOUT
    ========================================================================== */
 
-// Body styles 
+// Creating subtle background gradient using elements.less mixin 
 
 body {
   .gradient(@color: @black, @start: lighten(@black, 6%), @stop: @black);
@@ -10,7 +10,7 @@ body {
 }
 
 
-// Container 
+// Universal container 
 
 .container {
   margin: 0 auto;
@@ -34,24 +34,36 @@ body {
   margin-bottom: 0.5em;
 }
 
+footer {
+  background-color: red;
+}
 
 header, 
+.banner, 
 section,
 footer {
   margin: 0 auto;
   width: 100%;
   text-align: center;
 }
+
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+article,
+footer {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom:0.5em;
+}
+
 
 // .banner {
 //   margin: 0 auto;
 //   width: 100%;
 //   text-align: center;
 // }
-
-section,
-footer {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-}
